@@ -1,13 +1,3 @@
-Absolutely! Below is your **complete updated `README.md`** file for the **Air-Control-AI** project, including:
-
-- Introduction  
-- Features  
-- Installation instructions  
-- Gesture control details  
-- ✅ Indian Sign Language (ISL) support, including only the letters and gestures you implemented  
-- Requirements and license
-
-```markdown
 # Air-Control-AI
 
 An AI-powered hand gesture desktop application that lets you control music playback and interact with your computer using only your hands—no mouse or keyboard required!
