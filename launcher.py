@@ -29,16 +29,18 @@ def show_mode_menu():
              font=("Arial", fs+2, "bold"),
              bg=bg, fg=fg).pack(pady=(20, 8))
 
+    # Add "Sign Language" to modes.
     modes = [
         labels["Finger Counting"],
         labels["Gesture Recognition"],
-        labels["Music Controller"]
+        labels["Music Controller"],
+        "Sign Language"
     ]
-    
     actual = {
         modes[0]: "count",
         modes[1]: "gesture",
-        modes[2]: "music"
+        modes[2]: "music",
+        modes[3]: "sign"
     }
 
     var = tk.StringVar(value=modes[0])
@@ -54,6 +56,8 @@ def show_mode_menu():
                 subprocess.Popen([sys.executable, "main_tracker.py", "count"], creationflags=subprocess.CREATE_NO_WINDOW)
             elif pm == "gesture":
                 subprocess.Popen([sys.executable, "main_tracker.py", "gesture"], creationflags=subprocess.CREATE_NO_WINDOW)
+            elif pm == "sign":
+                subprocess.Popen([sys.executable, "main_tracker.py", "sign"], creationflags=subprocess.CREATE_NO_WINDOW)
             else:
                 subprocess.Popen([sys.executable, "music_selector.py"], creationflags=subprocess.CREATE_NO_WINDOW)
             root.destroy()
