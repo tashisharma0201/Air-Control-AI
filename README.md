@@ -118,4 +118,4 @@ MIT
 - [GitHub Repository](https://github.com/tashisharma0201/Air-Control-AI)
 
 **Enjoy gesture-powered control on your desktop!**  
-For help, bug reports, or contributions, please open an issue or pull request on GitHub.
+
