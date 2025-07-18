@@ -1,0 +1,56 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Executable files
+*.exe
+*.dll
+*.so
+
+# Large project/package files
+*.pkg
+
+# User data and logs
+*.log
+*.db
+user_data/
+
+# MediaPipe, OpenCV model data (add folder names if used)
+*.binarypb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Git LFS or GitHub-specific
+.gitattributes
+
+# Ignore test results
+htmlcov/
+coverage.xml
+*.cover
+.cache
+
+# Node and package manager stuff (if any)
+node_modules/
+package-lock.json
